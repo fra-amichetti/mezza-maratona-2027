@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key><string>Mezza Milano 2027</string>
+  <key>CFBundleDisplayName</key><string>Mezza Milano 2027</string>
+  <key>CFBundleIdentifier</key><string>io.github.fraamichetti.mezzamaratona2027</string>
+  <key>CFBundleExecutable</key><string>MezzaMilano</string>
+  <key>CFBundleIconFile</key><string>AppIcon</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>1.0</string>
+  <key>CFBundleVersion</key><string>202610171649</string>
+  <key>CFBundleDevelopmentRegion</key><string>it</string>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>LSApplicationCategoryType</key><string>public.app-category.healthcare-fitness</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSRemindersUsageDescription</key><string>Per mettere ogni giorno il tuo allenamento nell'app Promemoria.</string>
+  <key>NSRemindersFullAccessUsageDescription</key><string>Per mettere ogni giorno il tuo allenamento nell'app Promemoria e aggiornarlo quando sposti una seduta.</string>
+
+</dict>
+</plist>

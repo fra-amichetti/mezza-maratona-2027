@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Mezza Milano 2027</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="layout">
+    <aside id="side"></aside>
+    <main id="main"><p class="muted" style="padding:40px">Caricamento…</p></main>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/seed-personal.js"></script>
+  <!-- Logica (pura, testata in tests/) -->
+  <script src="js/core/util.js"></script>
+  <script src="js/core/paces.js"></script>
+  <script src="js/core/plan-data.js"></script>
+  <script src="js/core/plan.js"></script>
+  <script src="js/core/gym.js"></script>
+  <script src="js/core/exercises.js"></script>
+  <script src="js/core/rules.js"></script>
+  <script src="js/core/form.js"></script>
+  <script src="js/core/cadence.js"></script>
+  <script src="js/core/coach.js"></script>
+  <script src="js/core/race.js"></script>
+  <script src="js/core/strava.js"></script>
+  <script src="js/core/db.js"></script>
+  <!-- Interfaccia -->
+  <script src="js/ui/store.js"></script>
+  <script src="js/ui/charts.js"></script>
+  <script src="js/ui/app.js"></script>
+  <script src="js/ui/views-main.js"></script>
+  <script src="js/ui/views-more.js"></script>
+  <script>MM.app.init();</script>
+</body>
+</html>
